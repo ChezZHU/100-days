@@ -2,3 +2,9 @@
 L = [8,2,50,3]
 L2 = sorted (L,key=abs)
 print(L2)
+# 第2题：列表排序
+
+# -*- coding: utf-8 -*-
+L = [8,2,50,3,1]
+print(sorted(L))
+# 第2题：列表排序 解2
