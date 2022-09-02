@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+L = [8,2,50,3]
+L2 = sorted (L,key=abs)
+print(L2)
