@@ -21,3 +21,5 @@ L.sort()
 print(L)
 
 # 注意sorted和sort的用法
+
+
