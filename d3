@@ -79,3 +79,18 @@ square_root = number ** (1/2)
 print(number,"的平方根是", square_root)
 
 
+# 请在 ___ 划线处，替换成你的代码
+
+# 从用户那里获得三角形的三条边
+# 将它们存储在变量a、b和c中
+float
+a = float(input())
+b = float(input())
+c = float(input())
+# 计算半周长 s
+s = (a + b + c)/2
+# 计算面积并打印 
+area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
+print(area)
+
+
