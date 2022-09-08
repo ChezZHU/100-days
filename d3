@@ -112,3 +112,14 @@ print(area)
 # and	如果两个同时为真返回真	True and True
 # or	如果两个同时为假返回假	False or False
 # not	取反	not True
+
+
+
+# 获取三个整数 
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
+
+# 如果n3是最小的数字，则打印True，否则打印False
+print(n3 < n1 and n3 < n2) 
+
