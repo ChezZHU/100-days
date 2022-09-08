@@ -1,0 +1,75 @@
+
+# 程序将千米转换为英里
+# 距离将由用户输入
+
+km = float(input('输入距离(千米): '))
+
+km_miles_ratio = 0.621
+
+miles = km * km_miles_ratio
+print('转化为英里为:', miles)
+
+
+# 请在 ___ 划线处，替换成你的代码
+
+# 从用户那里获得温度（摄氏度），并赋值给celsius
+celsius = float(input('请输入温度(摄氏度)   '))
+
+# 用公式将其转换为华氏度数
+fahrenheit = (celsius * 1.8) + 32
+
+# 打印华氏度数，以华氏为单位
+print(fahrenheit)
+
+
+
+# 请在 ___ 划线处，替换成你的代码
+
+# 创建变量 fee 和 discount_percent
+fee = 1536
+discount_percent = 10/100
+# 计算折扣并将其分配给变量discount
+discount = fee * discount_percent
+
+# 计算并打印你需要支付的学费
+fee_pay = fee - discount
+print (fee_pay)
+
+# 获取字符串 'Pikachu' 的类型
+data_type = type('Pikachu')
+
+print(data_type)
+
+# 请在 ___ 划线处，替换成你的代码
+
+# 创建变量 x 和 y
+x = '5'
+y = '10'
+
+# 将储存在x和y中的数值转换为整数，并将其相乘
+x1=int(x)
+y1=float(y)
+
+# 打印结果
+print(x1*y1)
+
+var = '25.0'
+numer = float(var)
+print(numer)
+
+
+
+# 请在 ___ 划线处，替换成你的代码
+
+# 从用户那里获得两个输入，并将其转换为浮点数
+# 然后将它们分配给变量number1和number2
+number1 = float(input('请输入Number1: '))
+number2 = float(input('请输入Number2: '))
+
+# 将数字相加，结果存在result
+result = number1 + number2
+
+# 打印result的平方
+print(result**2)
+
+
