@@ -41,7 +41,6 @@ if country == 'france' or country == 'France':
 else:
     print('Hello')
     
-# 上面代码中，如果 country 等于 'france' 或 'France'， bonjour 将被打印。 否则， Hello 将被打印。
 
 age = 20
 
@@ -59,4 +58,16 @@ else:
 # 上面代码中，print('这儿发生了错误') 将导致错误。 它不在 if 子句中，也不在 else 子句中。
 ## 不能在if和else之间放其他代码
 
+# 上面代码中，如果 country 等于 'france' 或 'France'， bonjour 将被打印。 否则， Hello 将被打印。
+
+# 我们已经看到了，if 语句带有 else 子句允许我们在两个不同的选项之间做出选择。 如果我们需要在多个选项之间做出选择，我们可以添加 elif (读作 else if) 子句。
+
+# 语法如下：
+if boolean_expression1:
+    if_body
+elif boolean expression2:
+    elif_body
+else:
+    else_body
+    
 
