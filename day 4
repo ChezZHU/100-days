@@ -70,4 +70,11 @@ elif boolean expression2:
 else:
     else_body
     
+# 工作方式如下：
+
+# 如果 boolean_expression1 为 True，则执行 if 的主体。
+# 如果 boolean_expression2 为 True, elif 的主体将被执行。
+# 如果所有的条件都为 False，则执行 else 的主体。
+
+
 
