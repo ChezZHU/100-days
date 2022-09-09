@@ -33,3 +33,11 @@ if student_grade >= 50: # 如果成绩大于等于 50
 else:
     print('很抱歉!')
     print('你没有通过考试.')
+
+country = input('Enter country: ')
+
+if country == 'france' or country == 'France':
+    print('Bonjour')
+else:
+    print('Hello')
+    
