@@ -100,4 +100,34 @@ elif number == 0:
 else:
     print('负数')
     
+# 这里，我们创建了一个循环，期望在运行固定次数后结束。
+# 为了运行循环的固定次数，我们必须在循环内部增加 count，使得 count <= 3 能变成 False。
 
+count = 1
+
+while count <= 3:
+    print('I am inside a loop.')
+    print('Looping is interesting.')
+    
+    # 改变变量count
+    count = count + 1
+
+# 循环完成后的执行代码
+print('OUTSIDE THE LOOP')
+
+#输出
+# I am inside a loop.
+# Looping is interesting.
+# I am inside a loop.
+# Looping is interesting.
+# I am inside a loop.
+# Looping is interesting.
+# OUTSIDE THE LOOP
+
+
+i = 1
+n = 6
+
+while i < n:
+    print(i)
+    i = i + 2  # i 每次迭代+2
