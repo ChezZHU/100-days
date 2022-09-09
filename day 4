@@ -172,3 +172,30 @@ while n != 0:
 
 print("结果:", total)
 
+# 获取一个整数 
+n = int(input())
+
+# 初始化为阶乘为 1
+total = 1
+
+i = 1
+while i <= n:
+    # 每次迭代中，total与i相乘
+    total = total * i
+    i = i + 1
+
+# 输出阶乘total
+print(total)
+
+# 请在 ___ 划线处，替换成你的代码
+
+# input输入字符串
+# 存储在变量text
+text = input()
+
+# 使用for循环
+# 输出每一个字符
+for a in text:
+    print(a)
+    
+    
