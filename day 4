@@ -42,3 +42,18 @@ else:
     print('Hello')
     
 # 上面代码中，如果 country 等于 'france' 或 'France'， bonjour 将被打印。 否则， Hello 将被打印。
+
+age = 20
+
+if age >= 18:
+    print('You can vote.')
+else:
+    print('You cannot vote')
+    
+# 下面为错误范例：
+if age >= 18:
+    print('你可以投票')
+print('这儿发生了错误')
+else:
+    print('你不可以投票')
+# 上面代码中，print('这儿发生了错误') 将导致错误。 它不在 if 子句中，也不在 else 子句中。
