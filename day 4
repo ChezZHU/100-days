@@ -146,4 +146,29 @@ while (i <= 5):
     print('i =', i)
     
     
+# 我们想计算前 n 个自然数的和。
+n = int(input('请输入一个正整数: '))
+
+total = 0
+
+i = 1
+while i <= n:
+    total = total + i
+    i = i + 1
+   
+print("结果:", total)
+
+# 实例：计算数字之和，直到用户输入 0
+total = 0
+
+#用户输入
+n = float(input('输入一个整数: '))
+
+# 循环，直到用户输入的为0
+while n != 0:
+    # 求和
+    total = total + n
+    n = float(input('再输入一个数字: '))
+
+print("结果:", total)
 
