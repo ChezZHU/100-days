@@ -1,0 +1,13 @@
+traffic_signal = 'green'
+
+if traffic_signal == 'red':
+    print('Stop the vehicle.')
+    print('Have a good day!')
+  
+  
+traffic_signal = 'green'
+
+if traffic_signal == 'red':
+    print('Stop the vehicle.')
+print('Have a good day!')
+
