@@ -41,3 +41,4 @@ if country == 'france' or country == 'France':
 else:
     print('Hello')
     
+# 上面代码中，如果 country 等于 'france' 或 'France'， bonjour 将被打印。 否则， Hello 将被打印。
