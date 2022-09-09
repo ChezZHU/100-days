@@ -77,4 +77,14 @@ else:
 # 如果所有的条件都为 False，则执行 else 的主体。
 
 
+# 之前学生分数题的补充
+student_grade = int(input('输入分数: '))
+
+if student_grade > 100 or student_grade < 0:
+    print('不合法的分数.')
+elif student_grade >= 50:
+    print('你通过了.')
+else:  
+    print('你失败了.')
+    
 
