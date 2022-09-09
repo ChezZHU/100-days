@@ -131,3 +131,19 @@ n = 6
 while i < n:
     print(i)
     i = i + 2  # i 每次迭代+2
+    
+# 如果我们打印循环中的 i 值，这将得到我们想要的输出：
+i = 1
+
+while (i <= 5):
+    print('i =', i)
+    i = i + 1
+    
+i = 1
+
+while (i <= 5):
+    i = i + 1
+    print('i =', i)
+    
+    
+
