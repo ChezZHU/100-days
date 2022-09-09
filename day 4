@@ -11,3 +11,16 @@ if traffic_signal == 'red':
     print('Stop the vehicle.')
 print('Have a good day!')
 
+# 检查学生是否通过考试。
+# 我们假设通过的成绩是 50 或以上。
+student_grade = int(input('输入成绩: '))
+
+if student_grade >= 50: # 如果成绩大于等于 50
+    print('祝贺!')
+    print('你通过了.')
+
+if student_grade < 50: # 如果成绩小于 50
+    print('很抱歉!')
+    print('你没有通过考试.')
+    
+    
