@@ -50,3 +50,14 @@ print("Finished")
 # 一个无限的while循环可以用来连续获取用户的输入。例如，你正在做一个计算器，需要从用户那里获取数字进行加法，当用户输入 "stop" 时，就停止。
 
 # 在这种情况下，break 语句可以用来在用户输入等于 "stop" 时结束无限循环。
+
+i = 0
+while True:
+  print(i)
+  i = i + 1
+  if i >= 5:
+    print("Breaking")
+    break
+
+print("Finished")
+
