@@ -61,3 +61,14 @@ while True:
 
 print("Finished")
 
+i = 0
+total = 0
+while i < 5:
+	i = i + 1
+	age = int(input())
+	if age >= 3:
+		total = total + 100
+
+	else:
+		continue
+print (total)
