@@ -50,5 +50,8 @@ if world in commands:
 else:
     print('No')
     
-
+words = ["hello", "world", "spam", "eggs"]
+for word in words:
+  print(word + "!")
+  
 
