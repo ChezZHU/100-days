@@ -1,3 +1,141 @@
 numbers = list(range(10))
 print(numbers)
 
+# Author: Leon
+# -*- coding = utf-8 -*-
+# @Time :15/10/2022 22:13
+# @File:demo 1.py
+# @Software:PyCharm
+
+# 这是我的第一个python程序
+# print("hello,world") # 这是单行注释
+#
+# '''
+# 这是第一行注释
+# 这是第二行注释
+# '''
+# print('python')
+#
+# import keyword
+# print(keyword.kwlist)
+#
+# age = 18
+# print('我的年纪是：%d岁'%age)
+# print('我的名字是%s,我的国籍是%s'%('leon','中国'))
+# print('aaa','bbb','ccc')
+# print('www','baidu','com',sep='.')
+# print('hello',end='')
+# print('world',end='\t')
+# print('python',end='\n')
+# print('end')
+
+# password = input('请输入密码：')
+# print('您刚刚输入的密码是:',password)
+# print(type (password))
+#
+# password = int(input('请输入密码：'))
+# print('您刚刚输入的密码是:',password)
+# print(type (password))
+#
+# a = input('输入:')
+# print(type(a))
+# print('输入了一个数字:%s'%a)
+
+# a = int('123')
+# print(type(a))
+# b = a + 100
+# print(b)
+#
+# c = int(input('输入c:'))
+# print('输入了一个数字：%d'%c)
+
+# if 判断条件1：
+#     执行语句1
+# elif 判断条件2：
+#     执行语句2
+# else:
+#     执行语句3
+
+# if True:
+#     print('True')
+# else:
+#     print('False')
+#
+# if 1:
+#     print('True')
+# else:
+#     print('False')
+#
+# if 0:
+#     print('True')
+# else:
+#     print('False')
+# print('end')
+
+# score = 77
+# if score >= 90 and score <= 100:
+#     print('本次考试，等级为A')
+# elif score >= 80 and score <90:
+#     print('本次考试，等级为B')
+# elif score >= 70 and score <80:
+#     print('本次考试，等级为C')
+# elif score >= 60 and score <70:
+#     print('本次考试，等级为D')
+# else:
+#     print('本次考试，等级为E')
+
+# xingbie = 1 # 1代表男生，0代表女生
+# danshen = 1 # 1代表单身，0代表有男/女朋友
+#
+# if xingbie == 1:
+#     print('男生')
+#     if danshen == 1:
+#         print('我给您介绍一个吧？')
+#     else:
+#         print('你给我介绍一个吧？')
+# else:
+#     print('女生')
+#     print('....')
+
+# import random #引入随机库
+# x = random.randint(0,2) #随机生成0-2的随机数，0、1、2
+# print(x)
+
+# 综合使用if语句的相关知识，实现石头、剪子、布游戏效果。显示下面提示信息：
+# 请输入：剪刀（0）、石头（1）、布（2）：_
+# 用户输入数字0-2中的一个数字，与系统随机生成的数字比较后给出结果信息。
+# 例如：输入0后，显示如下
+# 你的输入为：剪刀（0）
+# 随机生成数字为：1
+# 哈哈，你输了： ）
+# 提示：对于输入不正常的情况尽可能考虑全面，使程序能正常运行。
+# import random
+# x = random.randint(0,2)
+# j = input('请输入：剪刀（0）、石头（1）、布（2）：_')
+# a = ('剪刀',(0))
+# b = ('石头',(1))
+# c = ('布',(2))
+# 
+# if j == 0:
+#     print('您的输入为: %s'%a)
+# elif j == 1:
+#     print('您的输入为: %s'%b)
+# elif j == 2:
+#     print('您的输入为：%s'%c)
+# 
+# k = int(j)
+# 
+# print('随机生成数字为：%d'%x)
+# if x > k:
+#     print('哈哈，你输了:)')
+# elif x == k:
+#     print('平局,再来一局')
+# elif x < k and k <= 2:
+#     print('你赢了，真棒！')
+# elif k > 2:
+#     print('输入有误，请输入0,1,2三个数字中的一个来进行游戏')
+# 
+# # print('输入了一个数字：%d'%c)
+# 
+# # a = int(input('请输入)
+# # print('你的输入为：%s'%a)
